@@ -56,14 +56,6 @@ export const ContactTextArea = styled.textarea`
   }
 `;
 
-const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
-  body {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-`;
-
 // const ContactSection = styled.section`
 //   background: url("../../images/contact.jpg") no-repeat center center/cover;
 //   padding: 50px 0;
@@ -71,20 +63,8 @@ const GlobalStyle = createGlobalStyle`
 //   font-family: "Source Sans Pro", sans-serif;
 // `;
 
-const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-`;
-
 const ContactHeading = styled.h2`
   font-size: 2.5rem;
-  margin-bottom: 20px;
-  text-align: center;
-`;
-
-const ContactSubHeading = styled.h3`
-  font-size: 1.5rem;
   margin-bottom: 20px;
   text-align: center;
 `;
@@ -109,24 +89,4 @@ const ContactTextArea = styled.textarea`
   font-size: 1rem;
   resize: none;
   height: 150px;
-`;
-
-const Button = styled.button`
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #0467fb;
-  }
-`;
-
-const ContactInfo = styled.div`
-  margin-top: 20px;
-  text-align: center;
 `;

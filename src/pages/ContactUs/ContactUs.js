@@ -99,7 +99,7 @@ const ContactUs = () => {
               <Button type="submit">Send Message</Button>
             </ContactForm>
             <ContactInfo>
-              <p>Phone: (91) 948131172</p>
+              <p>Phone: (91) 9481311172</p>
               <p>Address: BTM Layout 1st Stage , Bengaluru 560068</p>
             </ContactInfo>
           </ContactWrapper>
