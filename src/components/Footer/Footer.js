@@ -24,17 +24,6 @@ import {
   SocialIconLink,
 } from "./Footer.elements";
 
-const subscribeToNewsletter = async (email) => {
-  try {
-    const response = await axios.post("http://localhost:8094/api/subscribe", {
-      email,
-    });
-    console.log("Subscription successful:", response.data);
-  } catch (error) {
-    console.error("Error subscribing to newsletter:", error);
-  }
-};
-
 function Footer() {
   const date = new Date();
 
