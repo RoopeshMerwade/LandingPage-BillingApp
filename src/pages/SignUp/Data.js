@@ -1,33 +1,4 @@
 import styled from "styled-components";
-export const signUpForm = {
-  username: {
-    type: "text",
-    placeholder: "Username",
-    required: true,
-  },
-  email: {
-    type: "email",
-    placeholder: "Email",
-    required: true,
-  },
-  password: {
-    type: "password",
-    placeholder: "Password",
-    required: true,
-  },
-  confirmPassword: {
-    type: "password",
-    placeholder: "Confirm Password",
-    required: true,
-  },
-  buttonLabel: "Sign Up",
-
-  loginOption: {
-    text: "Already have an account? ",
-    linkText: "Login",
-    // link: "/login",
-  },
-};
 
 export const homeObjTwo = {
   lightBg: false,
