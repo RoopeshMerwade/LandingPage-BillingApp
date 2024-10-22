@@ -64,12 +64,12 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const ContactSection = styled.section`
-  background: url("../../images/contact.jpg") no-repeat center center/cover;
-  padding: 50px 0;
-  color: #fff;
-  font-family: "Source Sans Pro", sans-serif;
-`;
+// const ContactSection = styled.section`
+//   background: url("../../images/contact.jpg") no-repeat center center/cover;
+//   padding: 50px 0;
+//   color: #fff;
+//   font-family: "Source Sans Pro", sans-serif;
+// `;
 
 const Container = styled.div`
   max-width: 1200px;
