@@ -5,13 +5,3 @@ This gorgeous responsive website is a static landing page built with React, styl
 # Description
 
 This static landing page could be used for various product showcases. You can navigate to different pages possibly due to react-router. I always wanted to learn styled components and building a project is a practical way to learn.
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
->>>>>>> 30395d50e9325cd2ca32891165abe671ad07a01f
