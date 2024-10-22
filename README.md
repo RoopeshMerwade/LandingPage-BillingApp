@@ -5,7 +5,7 @@ This gorgeous responsive website is a static landing page built with React, styl
 # Description 
 
 This static landing page could be used for various product showcases. You can navigate to different pages possibly due to react-router. I always wanted to learn styled components and building a project is a practical way to learn.
-The only challenge I faced was using styled components, it was intimidating at first and since I used regular CSS and SASS it was weird without any classnames. At least styled-components are similar to SASS in terms of nesting lol! 
+
 
 
 
