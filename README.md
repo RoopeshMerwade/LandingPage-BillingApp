@@ -8,20 +8,7 @@ This static landing page could be used for various product showcases. You can na
 The only challenge I faced was using styled components, it was intimidating at first and since I used regular CSS and SASS it was weird without any classnames. At least styled-components are similar to SASS in terms of nesting lol! 
 
 
-I referred to this doc for understanding styled components - [styled component doc](https://styled-components.com/).
 
 
-[Click here to see the live demo](https://ultra-b73fc5.netlify.app/)
 
-# Tech Stack
-* React
-* Styled Components
-* React Router
-* React Hooks
 
-# Screenshot
-<img src="./UltraDesktop.png" alt="the screenshot of the app large screen"/>
-<img src="./UltraIPhone.png" alt="the screenshot of the app large screen"/>
-
-# Credits
-@briandesign
