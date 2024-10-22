@@ -47,12 +47,12 @@ const ContactForm = styled.form`
   gap: 15px;
 `;
 
-const ContactInput = styled.input`
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-`;
+// const ContactInput = styled.input`
+//   padding: 10px;
+//   border: none;
+//   border-radius: 5px;
+//   font-size: 1rem;
+// `;
 
 const ContactTextArea = styled.textarea`
   padding: 10px;
