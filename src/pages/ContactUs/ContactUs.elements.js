@@ -20,12 +20,12 @@ export const ContactHeading = styled.h1`
   color: #101522;
 `;
 
-export const ContactForm = styled.form`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 600px;
-`;
+// export const ContactForm = styled.form`
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   max-width: 600px;
+// `;
 
 export const ContactInput = styled.input`
   padding: 10px;
