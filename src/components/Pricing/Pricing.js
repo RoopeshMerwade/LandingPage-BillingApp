@@ -1,10 +1,10 @@
-import React from 'react';
-import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/ai';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
-import { IconContext } from 'react-icons/lib';
+import React from "react";
+import { Button } from "../../globalStyles";
+import { AiFillThunderbolt } from "react-icons/ai";
+import { GiCrystalBars } from "react-icons/gi";
+import { GiCutDiamond, GiRock } from "react-icons/gi";
+import { GiFloatingCrystal } from "react-icons/gi";
+import { IconContext } from "react-icons/lib";
 import {
   PricingSection,
   PricingWrapper,
@@ -17,62 +17,68 @@ import {
   PricingCardCost,
   PricingCardLength,
   PricingCardFeatures,
-  PricingCardFeature
-} from './Pricing.elements';
+  PricingCardFeature,
+} from "./Pricing.elements";
 
- const Pricing = () => {
+const Pricing = () => {
   return (
-    <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
+    <IconContext.Provider value={{ color: "#a9b3c1", size: 64 }}>
       <PricingSection>
         <PricingWrapper>
           <PricingHeading>Our Services</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <AiFillThunderbolt />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>User Role</PricingCardPlan>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
+                  <PricingCardFeature>Only View Access</PricingCardFeature>
+                  <PricingCardFeature>Pay Invoices</PricingCardFeature>
                   <PricingCardFeature>Retargeting analytics</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary as="a" href="/sign-up">
+                  Customer Login
+                </Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  <GiFloatingCrystal />
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Accountant Role</PricingCardPlan>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>
+                    Can Create Customer Records
+                  </PricingCardFeature>
+                  <PricingCardFeature>Create Invoices</PricingCardFeature>
+                  <PricingCardFeature>Track Payments</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary as="a" href="/Log In">
+                  Accountant Login
+                </Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Admin Role</PricingCardPlan>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>Unlimited/Full Access</PricingCardFeature>
+                  <PricingCardFeature>
+                    Manages Users & Accountants
+                  </PricingCardFeature>
+                  <PricingCardFeature>Manages Everything</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary as="a" href="/sign-up">
+                  Admin Login
+                </Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
@@ -80,6 +86,6 @@ import {
       </PricingSection>
     </IconContext.Provider>
   );
-}
+};
 
-export default Pricing
+export default Pricing;
