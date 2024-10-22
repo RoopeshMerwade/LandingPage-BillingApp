@@ -56,12 +56,6 @@ export const ContactTextArea = styled.textarea`
   }
 `;
 
-const ContactForm = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-`;
-
 const ContactInput = styled.input`
   padding: 10px;
   border: none;
