@@ -17,6 +17,13 @@ const ContactSection = styled.section`
   font-family: "Source Sans Pro", sans-serif;
 `;
 
+const ContactInput = styled.input`
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+`;
+
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
