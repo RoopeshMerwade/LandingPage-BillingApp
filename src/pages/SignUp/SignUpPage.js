@@ -76,19 +76,6 @@ const ErrorMessage = styled.div`
   opacity: ${(props) => (props.show ? 1 : 0)};
 `;
 
-const LoginOption = styled.div`
-  margin-top: 20px;
-  text-align: center;
-  font-size: 0.875rem;
-`;
-
-const LoginLink = styled.a`
-  color: #4b59f7;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-`;
-
 const SignUpPage = () => {
   const [formValues, setFormValues] = useState({
     email: "",

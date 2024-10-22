@@ -4,7 +4,6 @@ import {
   NavbarContainer,
   NavLogo,
   NavIcon,
-  HamburgerIcon,
   NavMenu,
   NavItem,
   NavLinks,

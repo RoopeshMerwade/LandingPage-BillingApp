@@ -1,7 +1,6 @@
 import React from "react";
 import { InfoSection, Pricing } from "../../components";
 import { homeObjOne, homeObjThree, homeObjTwo, homeObjFour } from "./Data";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (

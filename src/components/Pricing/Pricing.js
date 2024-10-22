@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "../../globalStyles";
 import { AiFillThunderbolt } from "react-icons/ai";
-import { GiCutDiamond, GiRock, GiFloatingCrystal } from "react-icons/gi";
+import { GiCutDiamond, GiFloatingCrystal } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import styled from "styled-components";
 import axios from "axios";

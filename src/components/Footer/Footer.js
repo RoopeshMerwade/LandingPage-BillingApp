@@ -7,7 +7,6 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
-import axios from "axios";
 import {
   FooterContainer,
   FooterSubscription,
