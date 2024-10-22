@@ -39,7 +39,7 @@ export const homeObjThree = {
   topLine: "Team-04 Project",
   headline: "Your Complete Billing Solution!",
   description: "Don’t Let Your Bills Weigh You Down, We’ve Got Your Back..",
-  buttonLabel: "View Case Study",
+  buttonLabel: "Get Started",
   imgStart: "start",
   img: require("../../images/Profile.jpg"),
   alt: "Vault",
