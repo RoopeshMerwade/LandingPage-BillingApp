@@ -38,16 +38,17 @@ function Navbar() {
     setProductsClick(false);
     setServicesClick(true);
   };
-  const handleProductsClick = () => {
-    setHomeClick(false);
-    setProductsClick(true);
-    setServicesClick(false);
-  };
 
-  const handleContactClick = () => {
-    setShowContactForm(true);
-    closeMobileMenu();
-  };
+  // const handleProductsClick = () => {
+  //   setHomeClick(false);
+  //   setProductsClick(true);
+  //   setServicesClick(false);
+  // };
+
+  // const handleContactClick = () => {
+  //   setShowContactForm(true);
+  //   closeMobileMenu();
+  // };
 
   const handleClick = () => setClick(!click);
 

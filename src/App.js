@@ -8,7 +8,6 @@ import Products from "./pages/Products/Products";
 import SignUp from "./pages/SignUp/SignUp";
 import ScrollToTop from "./components/ScrollToTop";
 import ContactUs from "./pages/ContactUs/ContactUs";
-import SignUpPage from "./pages/SignUp/SignUpPage";
 
 function App() {
   return (

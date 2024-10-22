@@ -9,6 +9,9 @@ export const ContactWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
 `;
 
 export const ContactHeading = styled.h1`
@@ -72,12 +75,6 @@ const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-`;
-
-const ContactWrapper = styled.div`
-  background: rgba(0, 0, 0, 0.7);
-  padding: 30px;
-  border-radius: 10px;
 `;
 
 const ContactHeading = styled.h2`
