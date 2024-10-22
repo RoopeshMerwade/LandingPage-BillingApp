@@ -56,6 +56,12 @@ export const ContactTextArea = styled.textarea`
   }
 `;
 
+const ContactInput = styled.input`
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+`;
+
 const ContactTextArea = styled.textarea`
   padding: 10px;
   border: none;
