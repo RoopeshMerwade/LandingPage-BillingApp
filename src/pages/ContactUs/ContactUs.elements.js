@@ -56,12 +56,6 @@ export const ContactTextArea = styled.textarea`
   }
 `;
 
-// const ContactHeading = styled.h2`
-//   font-size: 2.5rem;
-//   margin-bottom: 20px;
-//   text-align: center;
-// `;
-
 const ContactForm = styled.form`
   display: flex;
   flex-direction: column;

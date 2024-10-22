@@ -72,15 +72,6 @@ const PricingCardPlan = styled.h3`
   font-size: 24px;
 `;
 
-const PricingCardCost = styled.h4`
-  font-size: 40px;
-`;
-
-const PricingCardLength = styled.p`
-  font-size: 14px;
-  margin-bottom: 24px;
-`;
-
 const PricingCardFeatures = styled.ul`
   margin: 16px 0 32px;
   list-style: none;
