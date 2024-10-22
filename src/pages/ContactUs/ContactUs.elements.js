@@ -56,18 +56,11 @@ export const ContactTextArea = styled.textarea`
   }
 `;
 
-// const ContactSection = styled.section`
-//   background: url("../../images/contact.jpg") no-repeat center center/cover;
-//   padding: 50px 0;
-//   color: #fff;
-//   font-family: "Source Sans Pro", sans-serif;
+// const ContactHeading = styled.h2`
+//   font-size: 2.5rem;
+//   margin-bottom: 20px;
+//   text-align: center;
 // `;
-
-const ContactHeading = styled.h2`
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  text-align: center;
-`;
 
 const ContactForm = styled.form`
   display: flex;
